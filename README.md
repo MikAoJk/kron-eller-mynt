@@ -1,4 +1,4 @@
-# flip-a-coin
+# kron-eller-mynt
 
 ## Technologies used
 * Bun
@@ -29,4 +29,4 @@ bun dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ## Deployed to GitHub pages 
-The application is live at: https://mikaojk.github.io/flip-a-coin
+The application is live at: https://mikaojk.github.io/kron-eller-mynt
