@@ -66,7 +66,7 @@ const FlipCoin = () => {
                         width={200}
                         height={200}
                     />
-                    <p className="mt-2 flex items-center justify-center">Heads or Tails</p>
+                    <p className="mt-2 flex items-center justify-center">Kron eller mynt</p>
                     <button className="flex flex-row mt-6 bg-blue-700 text-white font-bold py-2 px-4 rounded" disabled>
                         <svg className="animate-spin -ml-1 mr-3 h-5 w-5 text-white" xmlns="http://www.w3.org/2000/svg"
                              fill="none" viewBox="0 0 24 24">
