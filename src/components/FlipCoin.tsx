@@ -40,7 +40,7 @@ const FlipCoin = () => {
                 <div>
                     <Image
                         src="kron.jpg"
-                        alt="heads coin"
+                        alt="krone siden"
                         width={200}
                         height={200}
                     />
@@ -51,7 +51,7 @@ const FlipCoin = () => {
                 <div>
                     <Image
                         src="mynt.jpg"
-                        alt="tails coin"
+                        alt="mynt siden"
                         width={200}
                         height={200}
                     />
@@ -62,7 +62,7 @@ const FlipCoin = () => {
                 <div className="flex flex-col items-center justify-center">
                     <Image
                         src="kron-mynt.gif"
-                        alt="head or tails image loop"
+                        alt="kron eller mynt bilde loop"
                         width={200}
                         height={200}
                     />
