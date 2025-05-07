@@ -1,7 +1,7 @@
 {
-  "name": "flip-a-coin",
+  "name": "kron-eller-mynt",
   "version": "1.0.0",
-  "homepage": "https://mikaojk.github.io/flip-a-coin",
+  "homepage": "https://mikaojk.github.io/kron-eller-mynt",
   "private": true,
   "scripts": {
     "dev": "next dev",
