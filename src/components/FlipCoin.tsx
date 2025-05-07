@@ -16,7 +16,7 @@ const FlipCoin = () => {
 
     const setCoinSideHandler = () => {
         const enumValue: string = randomEnumValue()
-        if (enumValue === 'Mynt') {
+        if (enumValue === 'Kron') {
             setIsEditing(true)
             setTimeout(() => {
                 setIsEditing(false)
