@@ -80,7 +80,7 @@ const FlipCoin = () => {
                 </div>
             }
             {!isEditing &&
-                <button className="text-lg mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
+                <button className="text-xl mt-6 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"
                         onClick={setCoinSideHandler}>Kast
                 </button>
             }
