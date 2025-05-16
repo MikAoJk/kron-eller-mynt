@@ -34,8 +34,6 @@ const FlipCoin = () => {
 
     return (
         <div className="flex flex-col items-center justify-center w-1/2 lg:w-1/3">
-            <h1 className="mb-6 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl dark:text-white">
-                Kast 1-kronen</h1>
             {coinSideHead && !isEditing &&
                 <div>
                     <Image
