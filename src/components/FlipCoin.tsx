@@ -2,34 +2,21 @@
 
 import {useState} from "react";
 import Image from 'next/image'
+import { randomEnumValue, isCoinHeads } from "@/utils/coinFlip";
 
 const FlipCoin = () => {
     const [coinSideHead, setCoinSideHead] = useState<boolean>(true)
     const [isEditing, setIsEditing] = useState(false)
 
-
-    const randomEnumValue = () => {
-        const values = Object.keys(CoinSide);
-        return values[Math.floor(Math.random() * values.length)];
-    }
-
-
     const setCoinSideHandler = () => {
         const enumValue: string = randomEnumValue()
-        if (enumValue === 'Kron') {
-            setIsEditing(true)
-            setTimeout(() => {
-                setIsEditing(false)
-                setCoinSideHead(true)
-            }, 1500);
-        } else {
-            setIsEditing(true)
-            setTimeout(() => {
-                setIsEditing(false)
-                setCoinSideHead(false)
-            }, 1500);
-        }
-
+        const isHeads = isCoinHeads(enumValue);
+        
+        setIsEditing(true)
+        setTimeout(() => {
+            setIsEditing(false)
+            setCoinSideHead(isHeads)
+        }, 1500);
     }
 
     return (
@@ -86,10 +73,5 @@ const FlipCoin = () => {
     );
 };
 
-
-enum CoinSide {
-    Kron = "KRON",
-    Mynt = "MYNT",
-}
 
 export default FlipCoin;
