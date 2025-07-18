@@ -26,6 +26,7 @@ jobs:
   build:
     name: build
     runs-on: ubuntu-latest
+    needs: test
     env:
       NEXT_PUBLIC_BASE_PATH: /kron-eller-mynt
     steps:
